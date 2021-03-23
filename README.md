@@ -5,8 +5,7 @@ Docker image that reconfigures the host for Redis.
 - Enables `overcommit_memory`. (https://redis.io/topics/faq#background-saving-fails-with-a-fork-error-under-linux-even-if-i-have-a-lot-of-free-ram)
 - Disables Transparent Huge Pages (THP). (https://github.com/docker-library/redis/issues/55)
 
-
-# Usage
+## Usage
 
 Run one time manually:
 
